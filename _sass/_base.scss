@@ -3,14 +3,6 @@
  ******************************************************************************/
 
 // Typography
-
-.btn-toolbar .btn {
-  font-weight: 600;
-}
-.btn-links .btn {
-  padding: 0px 10px;
-}
-
 h2{
   font-weight: 400;
 }
@@ -582,4 +574,16 @@ html.transition *:after {
   color: var(--global-text-color-light);
   font-size: 0.875rem;
   padding-top: 0.25rem;
+}
+
+.btn-toolbar .btn {
+  font-weight: 600;
+}
+.btn-links .btn {
+  display: inline-flex;
+  margin: 12px 0 12px 8px;
+  padding: 0 8px 0 8px;
+  height: 23px;
+  align-items: center;
+  vertical-align: middle;
 }
