@@ -7,7 +7,7 @@ subtitle: Graduate Student |  Department of Cognitive Robotics, TU Delft
 profile:
   align: right
   image: profile.jpg
-  address: >
+  address: 
 
 news: true  # includes a list of news items
 projects: true
@@ -20,7 +20,9 @@ social: true  # includes social icons at the bottom of the page
 <br>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp;  ― Socrates
 </blockquote>
-I am a Master student in Robotics at [Delft University of Technology](https://www.tudelft.nl/en/).
+I am a Master student in Robotics at [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/), the Netherlands. Before that, I received my Bachelor's degree in Mechanical Engineering with Excellent Graduate Honor from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/), Shenzhen, China.
+
+I am captivated by the unparalleled elegance of robotics, which has propelled me to further explore autonomous systems during my graduate phase. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

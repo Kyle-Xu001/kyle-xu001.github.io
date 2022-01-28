@@ -36,7 +36,7 @@
               {% if site.blog_name %}
 
               <!-- Other pages -->
-              {%- assign sorted_pages = site.pages | sort: "title" -%}
+              <!-- {%- assign sorted_pages = site.pages | sort: "title" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
@@ -66,17 +66,58 @@
               </li>
               {%- endif -%}
               {%- endif -%}
-              {% endfor -%}
+              {% endfor -%}  -->
               {%- if site.enable_darkmode %}
 
               <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="/blog/"><i style="font-size:16px" class="fa">	&#xf02d;</i>&nbsp;Blog
+              <li class="nav-item {% if page.url contains 'news' %}active{% endif %}">
+                <a class="nav-link" href="#news"><i style="font-size:16px" class="fa">	&#xf02d;</i>&nbsp;News
+                  {%- if page.title == "news" -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              
+              <li class="nav-item {% if page.url contains 'experience' %}active{% endif %}">
+                <a class="nav-link" href="/blog/"><i style="font-size:16px" class="fa">	&#xf02d;</i>&nbsp;Experience
+                  {%- if page.title == "experience" -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              
+              <li class="nav-item {% if page.url contains '#pub' %}active{% endif %}">
+                <a class="nav-link" href="#pub"><i style="font-size:16px" class="fa">	&#xf02d;</i>&nbsp;Publication
+                  {%- if page.title == "publications" -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              
+              <li class="nav-item {% if page.url contains '#pro' %}active{% endif %}">
+                <a class="nav-link" href="#pro"><i style="font-size:16px" class="fa">	&#xf02d;</i>&nbsp;Project
+                  {%- if page.title == "projects" -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+
+              <li class="nav-item {% if page.url contains 'projects' %}active{% endif %}">
+                <a class="nav-link" href="#"><i style="font-size:16px" class="fa">	&#xf02d;</i>&nbsp;Honor & Award
+                  {%- if page.title == "Honor & Award" -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+
+              <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
+                <a class="nav-link" href="/blog/"><i style="font-size:16px" class="fa">	&#xf02d;</i>&nbsp;CV
                   {%- if page.title == "blog" -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
+
               {%- endif %}
 
               <!-- Toogle theme mode -->
