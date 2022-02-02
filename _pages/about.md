@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 </blockquote>
 I am a Master student in Robotics at [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/), the Netherlands. Before that, I received my Bachelor's degree in Mechanical Engineering with Excellent Graduate Honor from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/), Shenzhen, China.
 
-Deeply attracted by the wild fantasy of [Jules Verne] and [Isaac Asimov], I am also captivated by the unparalleled elegance of robotics, which has propelled me to explore further to promote the widespread applications of intelligient robots.
+Inspired by the fantasies of Jules Verne and Isaac Asimov, I am captivated by the unparalleled elegance of robotics, which propels me to explore robotic technology to promote the widespread applications of intelligent systems in daily life. Previously, I 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
