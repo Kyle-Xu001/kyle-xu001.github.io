@@ -18,11 +18,11 @@ social: true  # includes social icons at the bottom of the page
 <blockquote>
 "Anything one man can imagine, other men can make real.”
 <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp;  ― Jules Verne
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;  ― Jules Verne
 </blockquote>
 I am a Master student in Robotics at [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/), the Netherlands. Before that, I received my Bachelor's degree in Mechanical Engineering with Excellent Graduate Honor from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/), Shenzhen, China.
 
-Inspired by the fantasies of Jules Verne and Isaac Asimov, I am captivated by the unparalleled elegance of robotics, which propels me to explore robotic technology to promote the widespread applications of intelligent systems in daily life. Previously, I 
+Inspired by the fantasies of Jules Verne and Isaac Asimov, I am captivated by the unparalleled elegance of robotics, which propels me to further explore robotic intelligence to promote the widespread applications of intelligent systems. Previously, I 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
