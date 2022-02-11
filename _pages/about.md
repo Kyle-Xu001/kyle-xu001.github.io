@@ -18,17 +18,13 @@ social: true  # includes social icons at the bottom of the page
 <blockquote>
 "Anything one man can imagine, other men can make real.”
 <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;  ― Jules Verne
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &ensp;  ― Jules Verne
 </blockquote>
 
 I am a Master student in Robotics at [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/), the Netherlands. Before that, I obtained my Bachelor's degree in Mechanical Engineering with **Excellent Graduate Honor** from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/), Shenzhen, China.
 
 Inspired by the fantasies of Jules Verne and Isaac Asimov, I am captivated by the unparalleled elegance of robotics, which propels me to further explore robotic intelligence to promote the widespread applications of intelligent systems. 
 
-Previously, I conducted research on Passive Assisted Exoskeleton and constructed the prototype under the supervision of [Prof. Hongqiang Wang](https://faculty.sustech.edu.cn/wanghq/en/) in 2019.
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my bachelor period, I conducted research on Passive Assisted Exoskeleton and constructed the functional prototype under the supervision of [Prof. Hongqiang Wang](https://faculty.sustech.edu.cn/wanghq/en/). In addition, I collaborated closely with [Dr. Jianwen Luo](https://sites.google.com/view/jianwen-luo/home) from [AIRS](https://airs.cuhk.edu.cn/en), focusing on the Mechanical Design of Quadruped Robots.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
