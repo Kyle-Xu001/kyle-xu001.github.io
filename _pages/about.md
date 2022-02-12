@@ -25,6 +25,6 @@ I am a Master student in Robotics at [Delft University of Technology (TU Delft)]
 
 Inspired by the fantasies of Jules Verne and Isaac Asimov, I am captivated by the unparalleled elegance of robotics, which propels me to further explore robotic intelligence to promote the widespread applications of intelligent systems. 
 
-During my bachelor period, I conducted research on Passive Assisted Exoskeleton and constructed the functional prototype under the supervision of [Prof. Hongqiang Wang](https://faculty.sustech.edu.cn/wanghq/en/). In addition, I collaborated closely with [Dr. Jianwen Luo](https://sites.google.com/view/jianwen-luo/home) from [AIRS](https://airs.cuhk.edu.cn/en), focusing on the Mechanical Design of Quadruped Robots.
+During my bachelor period, I conducted research on Passive Assisted Exoskeleton and constructed the functional prototype under the supervision of [Prof. Hongqiang Wang](https://faculty.sustech.edu.cn/wanghq/en/). In addition, I collaborated closely with [Dr. Jianwen Luo](https://sites.google.com/view/jianwen-luo/home) from [AIRS](https://airs.cuhk.edu.cn/en), focusing on the mechanical design of Quadruped Robots.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
