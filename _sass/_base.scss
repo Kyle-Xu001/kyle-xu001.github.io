@@ -395,7 +395,8 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -581,6 +582,7 @@ html.transition *:after {
 }
 
 .project-toolbar{
+  margin-top: 20px;
   margin-left: 25px;
 }
 .btn-toolbar .btn {
@@ -602,12 +604,12 @@ html.transition *:after {
  * ------------------------------------- */
  #timeline {
   list-style: none;
-  margin: 50px 0 30px 120px;
+  margin: 20px 0px 30px 140px;
   padding-left: 30px;
-  border-left: 8px solid #3aa563;
+  border-left: 6px solid #3aa563;
 }
 #timeline li {
-  margin: 40px 0;
+  margin: 25px 0;
   position: relative;
 }
 #timeline p {
@@ -617,16 +619,17 @@ html.transition *:after {
 .date {
   margin-top: -10px;
   top: 50%;
-  left: -158px;
-  font-size: 0.95em;
-  line-height: 20px;
+  left: -175px;
+  font-size: 0.9em;
+  font-weight: bolder;
+  line-height: 18px;
   position: absolute;
 }
  
 .circle {
-  margin-top: -10px;
+  margin-top: -8px;
   top: 50%;
-  left: -44px;
+  left: -40px;
   width: 10px;
   height: 10px;
   background: #48b379;
@@ -636,16 +639,17 @@ html.transition *:after {
   position: absolute;
 }
  
-.content {
-  max-height: 20px;
-  padding: 50px 20px 0;
+.expcontent {
+  max-height: 5px;
+  padding: 50px 20px 0 20px;
+  margin-left: -5px;
   border-color: transparent;
   border-width: 2px;
   border-style: solid;
   border-radius: 0.5em;
   position: relative;
 }
-.content:before, .content:after {
+.expcontent:before, .expcontent:after {
   content: "";
   width: 0;
   height: 0;
@@ -654,19 +658,19 @@ html.transition *:after {
   pointer-events: none;
   right: 100%;
 }
-.content:before {
+.expcontent:before {
   border-right-color: inherit;
-  border-width: 20px;
+  border-width: 13px;
   top: 50%;
-  margin-top: -20px;
+  margin-top: -16px;
 }
-.content:after {
+.expcontent:after {
   border-right-color: #48b379;
-  border-width: 17px;
+  border-width: 13px;
   top: 50%;
-  margin-top: -17px;
+  margin-top: -16px;
 }
-.content p {
+.expcontent p {
   max-height: 0;
   color: transparent;
   text-align: justify;
@@ -676,12 +680,14 @@ html.transition *:after {
 }
  
 label {
-  font-size: 1.3em;
+  font-size: 1em;
+  font-weight: bolder;
   position: absolute;
   z-index: 100;
   cursor: pointer;
-  top: 20px;
-  transition: transform 0.2s linear;
+  margin-left: 12px;
+  top: 13px;
+  transition: transform 0.3s linear;
 }
  
 .radio {
@@ -690,21 +696,21 @@ label {
  
 .radio:checked + .relative label {
   cursor: auto;
-  transform: translateX(42px);
+  transform: translateX(65px);
 }
 .radio:checked + .relative .circle {
-  background: #f98262;
+  border: 5px solid #f98262;
 }
-.radio:checked ~ .content {
+.radio:checked ~ .expcontent {
   max-height: 180px;
-  border-color: #eee9dc;
+  border-color: rgba(170, 233, 194, 0.562);
   margin-right: 20px;
-  transform: translateX(20px);
+  transform: translateX(10px);
   transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
 }
-.radio:checked ~ .content p {
+.radio:checked ~ .expcontent p {
   max-height: 200px;
-  color: #eee9dc;
+  color: #2a2c2bd3;
   transition: color 0.3s linear 0.3s;
 }
  
@@ -718,12 +724,12 @@ label {
     border-left: none;
   }
   #timeline li {
-    margin: 50px 0;
+    margin: 25px 0;
   }
  
   label {
     width: 85%;
-    font-size: 1.1em;
+    font-size: 1em;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -731,29 +737,29 @@ label {
     transform: translateX(18px);
   }
  
-  .content {
+  .expcontent {
     padding-top: 45px;
     border-color: #eee9dc;
   }
-  .content:before, .content:after {
+  .expcontent:before, .expcontent:after {
     border: solid transparent;
     bottom: 100%;
   }
-  .content:before {
+  .expcontent:before {
     border-bottom-color: inherit;
-    border-width: 17px;
-    top: -16px;
-    left: 50px;
-    margin-left: -17px;
-  }
-  .content:after {
-    border-bottom-color: #48b379;
-    border-width: 20px;
+    border-width: 13px;
     top: -20px;
     left: 50px;
-    margin-left: -20px;
+    margin-left: -16px;
   }
-  .content p {
+  .expcontent:after {
+    border-bottom-color: #48b379;
+    border-width: 13px;
+    top: -20px;
+    left: 50px;
+    margin-left: -16px;
+  }
+  .expcontent p {
     font-size: 0.9em;
     line-height: 1.4;
   }
