@@ -583,9 +583,10 @@ html.transition *:after {
 
 .project-toolbar{
   margin-top: 20px;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 .btn-toolbar .btn {
+  display: inline-flex;
   font-weight: 600;
   font-size: 0.7em;
 }
@@ -593,7 +594,7 @@ html.transition *:after {
   display: inline-flex;
   margin: 12px 0 12px 8px;
   padding: 0 8px 0 8px;
-  height: 23px;
+  height: 20px;
   align-items: center;
   vertical-align: middle;
 }
