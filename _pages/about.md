@@ -14,6 +14,7 @@ projects: true
 projects_horizontal: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+# Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 ---
 <blockquote>
 "Anything one man can imagine, other men can make real.”
@@ -27,4 +28,4 @@ Inspired by the fantasies of Jules Verne and Isaac Asimov, I am captivated by th
 
 During my bachelor period, I conducted research on Passive Assisted Exoskeleton and constructed the functional prototype under the supervision of [Prof. Hongqiang Wang](https://faculty.sustech.edu.cn/wanghq/en/). In addition, I collaborated closely with [Dr. Jianwen Luo](https://sites.google.com/view/jianwen-luo/home) from [AIRS](https://airs.cuhk.edu.cn/en), focusing on the mechanical design of Quadruped Robots.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, my research interests lie in Robot Planning and Perception, especially the intersection area of robotics and machine learning. During my graduate period, I worked on the motion control of industrial robots at [ROKAE Robotics](https://www.rokae.com/?l=en-us) in summer 2021. Since February 2022, I have been a computer vision engineer at [Lely Technologies](https://www.lely.com/nl/), focusing on algorithm development for real-time multi-camera image stitching.
