@@ -6,7 +6,7 @@
     <div class="project-filters">
       <div class="btn-toolbar">
         <div id="filters" class="btn-group">
-          <a href="##" data-filter="*" class="btn btn-success btn-sm text-nowrap">All💡</a>
+          <a href="##" data-filter="*" class="btn btn-success btn-sm text-nowrap active">All💡</a>
           <a href="##" data-filter=".js-id-Robotics" class="btn btn-success
             btn-sm text-nowrap">Robotics</a>
           <a href="##" data-filter=".js-id-Machine-Learning" class="btn
@@ -14,7 +14,7 @@
           <a href="##" data-filter=".js-id-Computer-Vision" class="btn
             btn-success btn-sm text-nowrap">Computer Vision</a>
           <a href="##" data-filter=".js-id-Featured💡" class="btn
-            btn-success btn-sm text-nowrap active">Featured💡</a>
+            btn-success btn-sm text-nowrap">Featured💡</a>
           <a href="##" data-filter=".js-id-Course-based" class="btn
             btn-success btn-sm text-nowrap">Course-based</a>
         </div>
@@ -28,6 +28,7 @@
 
   <div id="containers" class="isotope projects-container row js-layout-row
     project-showcase mt-4">
+
 
 
     <div class="col-lg-12 project-item isotope-item js-id-Machine-Learning
@@ -47,12 +48,9 @@
 
           </div>
           <div class="article-style" itemprop="articleBody">
-            • Developed and trained a Neural Network for multi-class classification that used the top-view as input and
-            outputted the control action (accelerate, steer left/right, brake).
-            • Designed a hand-crafted feature extractor to reach brightness and contrast invariance.
-            Taking use of Random Forest and Convolutional Neural Network
-            methods, the policy function is trained to control the racing car
-            based on the current image.
+            Developed the Random Forest and Convolutional Neural Network models for multi-class classification, which
+            used the current top-view image as input and outputted the control action (accelerate, steer left/right,
+            brake).
           </div>
 
         </div>
@@ -72,7 +70,7 @@
       js-id-Course-based mb-1">
       <div class="row align-items-center">
         <div class="col-12 col-md-8">
-          <h5 class="article-title mb-0 mt-0" itemprop="name">Obstacle Avoidance & Pedestrian Detection for Autonomous
+          <h5 class="article-title mb-0 mt-0" itemprop="name">Obstacle Detection and Avoidance for Autonomous
             Vehicle</h5>
 
           <div class="btn-links">
@@ -86,14 +84,9 @@
 
           </div>
           <div class="article-style" itemprop="articleBody">
-            Taking use of OpenCV and PCL library, I implemented the pedestrian
-            detection node, obstacle dectection node and vehicle control node to
-            complete the route.
-            • Developed a collection of ROS nodes, each tackling a different task, to achieve autonomous driving in a
-            simulated test track.
-            • Designed two nodes to detect obstacles and pedestrians from the camera images and lidar pointclouds using
-            OpenCV and PCL.
-            • Developed a node that used these detections to generate control instructions.
+            Developed software on ROS to achieve autonomous driving in a simulated test track. Designed ROS nodes to
+            detect obstacles and pedestrians from lidar pointclouds and camera images using PCL and OpenCV, and use
+            these detections to generate control instructions.
           </div>
 
         </div>
@@ -128,7 +121,21 @@
 
           </div>
           <div class="article-style" itemprop="articleBody">
-            Mechanical Design
+            Aiming at various types of jobs like automobile which require long-term arm-lifting work and easily cause
+            muscle damage, a passive adjustable arm-exoskeleton is designed based on a spring slider model and
+            four-bar-linkage model. It is a lightweight wearable system with a weight of 2 kg and with a feature of easy
+            adjustability. On the one hand, the lifting force of the mechanism is relatively constant in a wide working
+            range. Secondly, the magnitude of the support force can be changed by a simple linear motion on the joint to
+            adapt different working scenario. In addition, the change from an obtuse support arm angle to an acute one
+            causes the supporting force step down in the non-working area, reducing the discomfort of wearer. 
+            
+            Through force and kinematic analysis among the mechanism, the theoretical support at different position and the
+            theoretical energy saving efficiency are obtained. Then the exoskeleton is tested experimentally to verify
+            the actual assisted effect. The results come out that it can reduce the respiratory consumption by 26.4 % in
+            control experiment and significantly reduce the measured electrical muscle signals imaging EMG (iEMG) and
+            root mean square (RMS) values by up to 38.7 %. At the same time, a subjective evaluation was launched and
+            the characteristics of force adjustability and step respond of assisted force also show their unique
+            practicalities.
           </div>
 
         </div>
