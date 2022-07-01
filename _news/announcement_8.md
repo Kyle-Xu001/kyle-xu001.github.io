@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-6-17 15:59:00-0400
+date: 2022-6-30 15:59:00-0400
 inline: true
 ---
 
-Our work about Upper-Limb Exoskeleton has been summited to T-RO.
+I will work as a student assistant (HiWi) at [Max-Planck Institute for Intelligent Systems](https://is.mpg.de/) this summer.
