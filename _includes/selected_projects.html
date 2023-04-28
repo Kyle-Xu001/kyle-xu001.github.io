@@ -2,21 +2,21 @@
 
   <h2 id="pro"> <i style="font-size: 27px;" class="fa">&#xf544;</i>&nbsp;
     Featured Projects </h2>
-  <span class="d-none default-project-filter">.js-id-Featured💡</span>
+  <span class="d-none default-project-filter">.js-id-Featured</span>
   <div class="project-toolbar">
     <div class="project-filters">
       <div class="btn-toolbar">
         <div id="filters" class="btn-group">
           <a href="##" data-filter="*" class="btn btn-success btn-sm
-            text-nowrap">All💡</a>
+            text-nowrap active">All💡</a>
           <a href="##" data-filter=".js-id-Robotics" class="btn btn-success
             btn-sm text-nowrap">Robotics</a>
           <a href="##" data-filter=".js-id-Machine-Learning" class="btn
             btn-success btn-sm text-nowrap">Machine Learning</a>
           <a href="##" data-filter=".js-id-Computer-Vision" class="btn
             btn-success btn-sm text-nowrap">Computer Vision</a>
-          <a href="##" data-filter=".js-id-Featured💡" class="btn
-            btn-success btn-sm text-nowrap active">Featured💡</a>
+          <a href="##" data-filter=".js-id-Featured" class="btn
+            btn-success btn-sm text-nowrap">Featured💡</a>
           <a href="##" data-filter=".js-id-Course-based" class="btn
             btn-success btn-sm text-nowrap">Course-based</a>
         </div>
@@ -25,14 +25,54 @@
   </div>
 
 
-
-
-
   <div id="containers" class="isotope projects-container row js-layout-row
     project-showcase mt-2">
 
     <div class="col-lg-12 project-item isotope-item js-id-Robotics
-      js-id-Featured💡 mb-3">
+      js-id-Featured js-id-Computer-Vision mb-3">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-8">
+          <h5 class="article-title mb-0 mt-0" style="font-size:19px; " itemprop="name">GRADE: Generating Realistic Animated Dynamic Environments</h5>
+
+          <div class="btn-links">
+            <a class="btn btn-outline-success btn-sm"
+              href="https://github.com/robot-perception-group/GRADE_tools/tree/main"
+              target="_blank" rel="noopener">
+              Code
+            </a>
+            <a class="btn btn-outline-success btn-sm"
+              href="https://eliabntt.github.io/GRADE-RR/home"
+              target="_blank" rel="noopener">
+              Website
+            </a>
+
+            <a class="btn btn-outline-info btn-sm disabled" target="_blank"
+              rel="noopener">
+              SLAM
+            </a>
+
+            <a class="btn btn-outline-info btn-sm disabled" target="_blank"
+              rel="noopener">
+              Dataset
+            </a>
+
+          </div>
+          <div class="article-style" itemprop="articleBody">
+            With GRADE framework we generate photorealistic indoor environment datasets consisting of static/dynamic scenarios and extended assets (motion blur, sensor noise, etc.). 
+            Generated data has been extensively tested on various SLAM frameworks and typical detection/segmentation libraries to prove usability and improved performance.
+          </div>
+
+        </div>
+        <div class="col-12 col-md-4 order-first">
+          <div align="center">
+            <img src="/assets/img/grade.gif" width="250" height="200">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-12 project-item isotope-item js-id-Robotics
+      js-id-Featured mb-3">
       <div class="row align-items-center">
         <div class="col-12 col-md-8">
           <h5 class="article-title mb-0 mt-0" itemprop="name">Upper-Limb Passive
@@ -79,7 +119,7 @@
 
 
     <div class="col-lg-12 project-item isotope-item js-id-Computer-Vision
-      js-id-Featured💡 mb-3">
+      js-id-Featured mb-3">
       <div class="row align-items-center">
         <div class="col-12 col-md-8">
           <h5 class="article-title mb-0 mt-0" itemprop="name">Multi-Camera
@@ -205,7 +245,7 @@
     </div>
   -->
     <div class="col-lg-12 project-item isotope-item js-id-Robotics
-      js-id-Featured💡 mb-3">
+      js-id-Featured mb-3">
       <div class="row align-items-center">
         <div class="col-12 col-md-8">
           <h5 class="article-title mb-0 mt-0" itemprop="name">Online Trajectory
@@ -242,7 +282,7 @@
 
     <div class="col-lg-12 project-item isotope-item js-id-Robotics
       js-id-Computer-Vision
-      js-id-Featured💡 js-id-Course-based mb-3">
+      js-id-Featured js-id-Course-based mb-3">
       <div class="row align-items-center">
         <div class="col-12 col-md-8">
           <h5 class="article-title mb-0 mt-0" itemprop="name">TIAGo Robot for
@@ -351,13 +391,19 @@
               ROS
             </a>
 
+            <a class="btn btn-outline-info btn-sm disabled" align="left"
+              target="_blank"
+              rel="noopener">
+              C++
+            </a>
+
           </div>
           <div class="article-style" itemprop="articleBody">
             Developed software on ROS to achieve autonomous driving in a
             simulated test track. Designed ROS nodes to
-            detect obstacles and pedestrians from lidar pointclouds and camera
+            detect obstacles and pedestrians from LiDAR pointclouds and camera
             images using PCL and OpenCV, and use
-            these detections to generate control instructions.
+            these detections to generate simple control instructions.
           </div>
 
         </div>
@@ -376,7 +422,7 @@
 
 
     <div class="col-lg-12 project-item isotope-item js-id-Robotics
-      js-id-Course-based js-id-Featured💡 mb-3">
+      js-id-Course-based js-id-Featured mb-3">
       <div class="row align-items-center">
         <div class="col-12 col-md-8">
           <h5 class="article-title mb-0 mt-0" itemprop="name">Path Planner for
