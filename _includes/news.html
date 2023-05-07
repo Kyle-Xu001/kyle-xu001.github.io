@@ -2,16 +2,17 @@
             <h2 id="news"><i style="font-size: 27px;" class="fa">&#xf0a1;</i>&nbsp; News</h2>
             {% if site.news  -%} 
             <div class="table-responsive">
-              <table class="table table-sm table-borderless">
+              <table class="table table-sm table-borderless" overflow="auto">
               {%- assign news = site.news | reverse -%} 
               {% for item in news limit: site.news_limit %} 
                 <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  {% if item.inline -%} 
+                    <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  {%- endif %} 
                   <td>
                     {% if item.inline -%} 
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      <!-- <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a> -->
                     {%- endif %} 
                   </td>
                 </tr>

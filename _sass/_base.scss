@@ -214,6 +214,11 @@ blockquote {
 
 
 // News
+.news table tbody {
+  display: block;
+  height: 250px;
+  overflow-y: scroll;
+}
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
