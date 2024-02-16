@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2020-08-25 07:59:00-0400
+date: 2021-07-01 07:59:00-0400
 inline: true
 ---
 
-Admission to **Master Robotics** at [Delft University of Technology](https://www.tudelft.nl/en/) 🏰
+First time in Beijing: I will work as a control engineer at [ROKAE Robotics](https://www.rokae.com/?l=en-us).

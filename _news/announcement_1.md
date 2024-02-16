@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-2-1 15:59:00-0400
+date: 2015-10-22 15:59:00-0400
 inline: true
+related_posts: false
 ---
 
-I am currently working as a Computer Vision R&D Engineer at [Lely Technologies](https://www.lely.com/nl/) 🐄
+A simple inline announcement.

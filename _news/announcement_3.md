@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2020-06-30 07:59:00-0400
+date: 2016-01-15 07:59:00-0400
 inline: true
+related_posts: false
 ---
 
-I graduated from [Southern University of Science and Technolgy](https://www.sustech.edu.cn/en/) with **Excellent Graduate Honor**!
+A simple inline announcement with Markdown emoji! :sparkles: :smile:
