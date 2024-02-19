@@ -4,7 +4,7 @@
 
 // Typography
 .clearfix{
-  font-family: 'Merriweather',serif;
+  font-family: 'Merriweather', serif;
   font-size: 16px;
   font-weight: 100;
 }
@@ -26,6 +26,7 @@ div,
 li,
 span,
 strong {
+  font-family: 'Merriweather', serif;
   color: var(--global-text-color);
 }
 
@@ -36,10 +37,12 @@ hr {
 table {
   td,
   th {
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
   }
 
   th {
+    font-family: 'Merriweather', serif;
     font-weight: bold;
   }
 }
