@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Our paper](https://openreview.net/pdf?id=SUIOuV2y-Ce) was accepted to ICRA 2023 Workshop on Pretraining for Robotics.
+[Our work](https://openreview.net/pdf?id=SUIOuV2y-Ce) was accepted to ICRA 2023 Workshop on Pretraining for Robotics.
