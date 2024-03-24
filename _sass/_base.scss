@@ -1100,3 +1100,30 @@ nav[data-toggle="toc"] {
   color: var(--global-text-color);
 }
 
+// Customized by Chenghao 24/03/2024
+.btn-project {
+  background-color: var(--global-bar-color);
+  border-color: var(--global-bar-border);
+  color: #fff; // White text color
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--global-bar-color-darker); // Darker on hover/focus
+    border-color: var(--global-bar-border);// Darker border on hover/focus
+    color: #fff; // White text color when active
+  }
+
+  &:disabled {
+    background-color: #6c757d; // Gray background for disabled state
+    border-color: #6c757d; // Gray border for disabled state
+    color: #fff; // White text for disabled state
+  }
+}
+
+.btn.btn-project.active,
+.btn.btn-sm.btn-project.active {
+  background-color: var(--global-bar-color-darker);
+  border-color: var(--global-bar-border);
+  color: #fff;
+}

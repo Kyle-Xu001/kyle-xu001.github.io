@@ -16,6 +16,9 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
+  --global-bar-color: #28a745;
+  --global-bar-color-darker: #218838;
+  --global-bar-border: #1e7e34;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -61,6 +64,9 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$nord-bg-color-lightest};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$nord-bg-color-light};
+  --global-bar-color: #{$nord-transmit-color};
+  --global-bar-color-darker: #{$nord-transmit-color-darker};
+  --global-bar-border: #4C566A;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
