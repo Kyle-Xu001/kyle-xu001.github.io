@@ -2,15 +2,29 @@
 ---
 
 @string{aps = {American Physical Society,}}
+@article{BuildNet3D,
+  abbr={PAPER},
+  title={Exploiting Semantic Scene Reconstruction for Estimating Building Envelope Characteristics},
+  author={Xu, C. and Mielle, M. and Laborde, A. and Wassem, A., and Forest, F. and Fink, O.},
+  journal={arXiv preprint},
+  abstract={The precise assessment of geometric building envelope characteristics is essential for informed building retrofitting decisions. Previous methods for estimating building characteristics, such as window-to-wall ratio, building footprint area, and the location of architectural elements, have primarily relied on deep-learning-based detection or segmeantion techniques on 2D images. However, these approaches tend to focus on planar facade properties, limiting their accuracy and comprehensiveness when analyzing 3D building envelopes. This work leverages cutting-edge neural surface reconstruction techniques based on SDF representations for 3D building analysis. We propose BuildNet3D, a novel framework to estimate geometric building characteristics from 2D image inputs. By integrating SDF-based representation with semantic modality, BuildNet3D recovers fine-grained 3D geometry and semantics of building envelopes, enabling the automatic extraction of key building characteristics.},
+  year={2024},
+  image={buildnet.png},
+  publisher=springer,
+  arxiv={2410.22383},
+  selected={true}
+}
 
 @article{DynaPix,
   abbr={PAPER},
   title={DynaPix SLAM: A Pixel-Based Dynamic Visual SLAM Approach},
   author={Xu*, C. and Bonetto*, E. and Ahmad, A.},
   journal={DAGM German Conference on Pattern Recognition (GCPR)},
+  abstract={Visual Simultaneous Localization and Mapping (V-SLAM) methods achieve remarkable performance in static environments but struggle with moving objects that affect their core modules. Dynamic SLAM approaches often leverage semantic information, geometric constraints, or optical flow to exclude dynamic elements. However, these methods are limited by imprecise estimations and reliance on the accuracy of deep-learning models. Furthermore, predefined thresholds for static/dynamic classification and the inability to recognize unexpected moving objects also degrade their performance. To address these issues, we introduce DynaPix, a semantic-free SLAM system based on per-pixel motion probability estimation and improved pose optimization. DynaPix estimates per-pixel motion probabilities using a static background differencing method on image data and optical flows from splatted frames, integrating these probabilities into map point selection and applying them through weighted bundle adjustment in ORB-SLAM2. Evaluations on the GRADE and TUM RGB-D datasets demonstrates significantly lower trajectory errors and extended tracking times in both static and dynamic sequences.},
   year={2024},
   publisher=springer,
   arxiv={2309.09879},
+  image={dynapix.png},
   code={https://github.com/robot-perception-group/DynaPix},
   website={https://dynapix.is.tue.mpg.de/},
   selected={true}
