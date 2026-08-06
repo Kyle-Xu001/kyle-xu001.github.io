@@ -21,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -248,7 +249,18 @@ img {
 }
 
 .project-card {
-  grid-template-columns: minmax(0, 1fr) 240px;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 1.4rem;
+}
+
+.project-card .project-copy {
+  grid-column: 2;
+}
+
+.project-card img {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
 }
 
 .publication-list > :first-child,
@@ -267,17 +279,18 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 26px;
-  padding: 0.02rem 0.45rem;
-  border-radius: 0;
+  min-height: 17px;
+  padding: 0 1.85rem;
+  border-radius: 4px;
   border: 1px solid rgba(0, 171, 55, 0.22);
   background: var(--accent);
   color: #ffffff;
   font-size: 0.64rem;
-  font-weight: 550;
+  font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   align-self: start;
+  box-shadow: 0 2px 6px rgba(20, 44, 23, 0.08);
 }
 
 .publication-badge.talk {
@@ -290,7 +303,7 @@ img {
 .project-copy h3 {
   margin: 0 0 0.35rem;
   font-size: 1.02rem;
-  font-weight: 550;
+  font-weight: 600;
   line-height: 1.34;
   overflow-wrap: anywhere;
   max-width: 34rem;
@@ -331,7 +344,7 @@ img {
   border-radius: 0;
   background: transparent;
   justify-self: end;
-  align-self: center;
+  align-self: start;
   padding: 0;
 }
 
@@ -346,14 +359,14 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 30px;
-  padding: 0.24rem 0.6rem;
+  min-height: 24px;
+  padding: 0.08rem 0.52rem;
   border: 1px solid rgba(0, 171, 55, 0.28);
   border-radius: 0;
   background: var(--accent-soft);
   color: var(--accent-strong);
   font: inherit;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   cursor: pointer;
 }
 
@@ -426,7 +439,7 @@ img {
 }
 
 .publication-copy {
-  padding-left: 0.18rem;
+  padding-left: 0.52rem;
 }
 
 .section-footer {
@@ -477,8 +490,8 @@ img {
   }
 
   .project-card {
-    grid-template-columns: minmax(0, 1fr) 190px;
-    gap: 0.82rem;
+    grid-template-columns: 190px minmax(0, 1fr);
+    gap: 1.15rem;
     padding: 0.88rem 0;
   }
 
@@ -506,9 +519,9 @@ img {
   }
 
   .publication-badge {
-    min-height: 24px;
-    padding: 0.02rem 0.45rem;
-    font-size: 0.64rem;
+    min-height: 18px;
+    padding: 0 0.82rem;
+    font-size: 0.6rem;
   }
 
   .link-row {
@@ -517,9 +530,9 @@ img {
   }
 
   .link-pill {
-    min-height: 26px;
-    padding: 0.18rem 0.5rem;
-    font-size: 0.67rem;
+    min-height: 22px;
+    padding: 0.06rem 0.44rem;
+    font-size: 0.64rem;
   }
 
   .abstract-panel {
@@ -530,25 +543,50 @@ img {
 
 @media (max-width: 720px) {
   .site-main {
-    padding-top: 1.5rem;
+    padding-top: 1.2rem;
   }
 
   .hero-section {
-    padding: 1.35rem;
+    padding: 1.25rem;
   }
 
   .section-block {
-    padding-top: 1.3rem;
+    padding-top: 1.45rem;
   }
 
   .section-heading h2 {
     font-size: 1.45rem;
   }
 
+  .hero-intro {
+    margin-bottom: 0.5rem;
+  }
+
+  .eyebrow {
+    font-size: 0.88rem;
+  }
+
+  .hero-copy blockquote {
+    margin-bottom: 1rem;
+    font-size: 0.98rem;
+    line-height: 1.65;
+  }
+
+  .hero-copy p {
+    margin-bottom: 1.1rem;
+    font-size: 0.98rem;
+    line-height: 1.78;
+  }
+
+  .hero-media {
+    width: min(100%, 220px);
+    margin: 0.65rem auto 1rem;
+  }
+
   .publication-card,
   .project-card {
-    padding: 0.9rem 0;
-    gap: 0.8rem;
+    padding: 1rem 0;
+    gap: 0.9rem;
   }
 
   .publication-card {
@@ -559,47 +597,75 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .project-card .project-copy,
+  .project-card img {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
   .publication-badge {
     width: fit-content;
   }
 
   .publication-copy h3,
   .project-copy h3 {
-    font-size: 1rem;
-    line-height: 1.4;
+    font-size: 1.04rem;
+    line-height: 1.42;
   }
 
   .publication-authors,
   .publication-meta,
   .project-copy p,
   .news-list span {
-    font-size: 0.9rem;
+    font-size: 0.96rem;
+    line-height: 1.65;
   }
 
   .link-row {
-    gap: 0.4rem;
-    margin: 0.55rem 0 0.65rem;
+    gap: 0.45rem;
+    margin: 0.6rem 0 0.72rem;
   }
 
   .link-pill {
-    min-height: 30px;
-    padding: 0.28rem 0.62rem;
-    font-size: 0.74rem;
+    min-height: 26px;
+    padding: 0.12rem 0.56rem;
+    font-size: 0.72rem;
   }
 
   .publication-preview,
   .project-card img {
     width: 100%;
-    max-width: none;
+    max-width: 320px;
     height: auto;
     min-height: 0;
-    justify-self: stretch;
-    border-radius: 0;
+    justify-self: center;
+    border-radius: 12px;
+  }
+
+  .news-list {
+    max-height: none;
+    overflow: visible;
+    padding: 0.65rem 1rem;
   }
 
   .news-list li {
     grid-template-columns: 1fr;
-    gap: 0.3rem;
+    gap: 0.18rem;
+    padding: 0.82rem 0;
+  }
+
+  .news-list time {
+    font-size: 0.84rem;
+    font-weight: 600;
+  }
+
+  .publication-copy {
+    padding-left: 0;
+  }
+
+  .publication-authors,
+  .publication-meta {
+    font-size: 0.92rem;
   }
 
   .project-filter-bar {
@@ -679,10 +745,23 @@ img {
     font-size: 2.05rem;
   }
 
+  .hero-copy p {
+    font-size: 0.96rem;
+  }
+
   .publication-badge {
-    min-height: 30px;
-    padding: 0.1rem 0.55rem;
-    font-size: 0.7rem;
+    min-height: 24px;
+    padding: 0.08rem 0.58rem;
+    font-size: 0.66rem;
+  }
+
+  .hero-media {
+    width: min(100%, 200px);
+  }
+
+  .publication-preview,
+  .project-card img {
+    max-width: 100%;
   }
 
   .social-row {
