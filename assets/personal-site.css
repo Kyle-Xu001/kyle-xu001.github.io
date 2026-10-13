@@ -325,6 +325,10 @@ img {
   color: var(--muted);
 }
 
+.publication-award {
+  color: var(--warning);
+}
+
 .publication-authors strong {
   font-weight: inherit;
   text-decoration: underline;
@@ -440,6 +444,34 @@ img {
 
 .publication-copy {
   padding-left: 0.52rem;
+}
+
+#service {
+  scroll-margin-top: 80px;
+}
+
+.service-list {
+  margin: 0;
+  font-size: 0.95rem;
+  border-top: 1px solid var(--line);
+}
+
+.service-list > div {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.service-list dt {
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+
+.service-list dd {
+  margin: 0;
+}
+
+.service-note {
+  color: var(--muted);
 }
 
 .section-footer {
